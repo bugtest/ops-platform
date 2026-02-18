@@ -1,0 +1,27 @@
+# Nginx 插件配置
+# 配置本地nginx的路径信息
+
+nginx:
+  # nginx二进制路径
+  binary: /usr/sbin/nginx
+  
+  # 主配置文件路径
+  config_path: /etc/nginx/nginx.conf
+  
+  # 配置目录
+  conf_dir: /etc/nginx/conf.d
+  
+  # 日志目录
+  log_dir: /var/log/nginx
+  
+  # 错误日志文件
+  error_log: /var/log/nginx/error.log
+  
+  # 访问日志文件
+  access_log: /var/log/nginx/access.log
+  
+  # stub_status URL (用于连接统计)
+  status_url: http://127.0.0.1/nginx_status
+  
+  # 默认读取日志行数
+  default_log_lines: 100

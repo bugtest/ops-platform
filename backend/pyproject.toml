@@ -1,0 +1,16 @@
+name = "ops-platform"
+version = "0.1.0"
+description = "智能运维平台 - 基于nanobot"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "pydantic>=2.5.0",
+    "pyyaml>=6.0.0",
+    "sse-starlette>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx>=0.26.0",
+]
